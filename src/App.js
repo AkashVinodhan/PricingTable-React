@@ -1,24 +1,19 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Card from "./Card";
+import features from "./features.json";
+const { freePlan, plusPlan, proPlan } = features;
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <section className="pricing py-5">
+      <div className="container">
+        <div className="row">
+          <Card tier="Free" planBenefits={freePlan} price={0} />
+          <Card tier="Plus" planBenefits={plusPlan} price={9} />
+          <Card tier="Pro" planBenefits={proPlan} price={49} />
+        </div>
+      </div>
+    </section>
   );
 }
 

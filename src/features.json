@@ -1,0 +1,107 @@
+{
+  "freePlan": [
+    {
+      "feature": "Single user",
+      "available": true
+    },
+    {
+      "feature": "5GB Storage",
+      "available": true
+    },
+    {
+      "feature": "Unlimited Public Projects",
+      "available": true
+    },
+    {
+      "feature": "Community Access",
+      "available": true
+    },
+    {
+      "feature": "Unlimited Private Projects",
+      "available": false
+    },
+    {
+      "feature": "Dedicated Phone Support",
+      "available": false
+    },
+    {
+      "feature": "Free Subdomain",
+      "available": false
+    },
+    {
+      "feature": "Monthly Status Reports",
+      "available": false
+    }
+  ],
+  "plusPlan": [
+    {
+      "feature": "5 users",
+      "available": true,
+      "isStrong": true
+    },
+    {
+      "feature": "5GB Storage",
+      "available": true
+    },
+    {
+      "feature": "Unlimited Public Projects",
+      "available": true
+    },
+    {
+      "feature": "Community Access",
+      "available": true
+    },
+    {
+      "feature": "Unlimited Private Projects",
+      "available": true
+    },
+    {
+      "feature": "Dedicated Phone Support",
+      "available": true
+    },
+    {
+      "feature": "Free Subdomain",
+      "available": true
+    },
+    {
+      "feature": "Monthly Status Reports",
+      "available": false
+    }
+  ],
+  "proPlan": [
+    {
+      "feature": "Unlimited Users",
+      "available": true,
+      "isStrong": true
+    },
+    {
+      "feature": "150GB Storage",
+      "available": true
+    },
+    {
+      "feature": "Unlimited Public Projects",
+      "available": true
+    },
+    {
+      "feature": "Community Access",
+      "available": true
+    },
+    {
+      "feature": "Unlimited Private Projects",
+      "available": true
+    },
+    {
+      "feature": "Dedicated Phone Support",
+      "available": true
+    },
+    {
+      "feature": "Unlimited Free Subdomains",
+      "available": true,
+      "isStrong": true
+    },
+    {
+      "feature": "Monthly Status Reports",
+      "available": true
+    }
+  ]
+}
